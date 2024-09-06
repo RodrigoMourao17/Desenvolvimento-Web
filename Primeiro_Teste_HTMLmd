@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="utf-8">
+<h1> Primeira página Web </h1>
+<h3> Subtítulo </h3>
+</head>
+<body>
+<p>Testo pré lista</p>
+<hr>
+<li> Lista 1 </li>
+<li> Lista 2 </li>
+<li> Lista 3 </li>
+<hr>
+<pre>
+<h3>Lista de definições</h3>
+<dl> 
+<dt>Objeto </dt>
+<dd>Definição do Objeto 1 </dd>
+<dd>Definição do Objeto 2 </dd>
+</pre>
+<hr>
+</dl>
+</body>
+</html>
