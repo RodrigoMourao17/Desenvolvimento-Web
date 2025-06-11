@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>TAREFA4JS</title>
+  <style>
+    .erro {
+      color: red;
+      font-size: large;
+    }
+
+    .sucesso {
+      color: green;
+    }
+
+    .errodeinput {
+      border: 2px solid red;
+    }
+  </style>
+</head>
+<body>
+  <h1>MANIPULAÇÃO E VALIDAÇÃO DE FORMULÁRIOS</h1>
+  <form id="formulario">
+    <label>Nome: </label>
+    <input type="text" id="Nome">
+    <span id="Nome-error" class="erro"></span><br><br>
+
+    <label>Email: </label>
+    <input type="text" id="Email">
+    <span id="Email-error" class="erro"></span><br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <div id="MensagemSucesso" class="sucesso" style="display: none;">Formulário enviado com sucesso!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
